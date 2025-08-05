@@ -10,36 +10,34 @@
 
 <body>
 
-    <footer class="p-3 d-flex flex-column flex-md-row">
-        <div class="titulo d-flex d-md-none justify-content-center">
+    <footer class="container-fluid p-5 pb-3 d-flex flex-column flex-md-row">
+        <ul class="mb-0 d-flex flex-column">
             <h1>Contatos</h1>
-        </div>
-        <ul class="mb-0 d-flex flex-column flex-md-row">
             <li>
-                <a href="">
+                <a href="https://maps.app.goo.gl/GvdpmTi86pXLCoWc8">
                     <img src="../assets/img/layout/logo_localizacao.png" height="40" width="30" alt="Localização">
                     <h3>Av.João Quevedo de Miranda, 300. Enxovia- Tatuí, SP</h3>
                 </a>
             </li>
             <li>
-                <a href="">
+                <a href="https://api.whatsapp.com/send?phone=5515997220672">
                     <img src="../assets/img/layout/logo_whatsapp.png" height="50" width="50" alt="Whatsapp">
                     <h3>(15)99722-0672</h3>
                 </a>
             </li>
             <li>
-                <a href="">
+                <a href="https://www.instagram.com/disallebolos">
                     <img src="../assets/img/layout/logo_instagram.png" height="35" width="35" alt="Instagram">
                     <h3>@disallebolos</h3>
                 </a> 
             </li>
             <li>
-                <a href="">
+                <a href="https://www.facebook.com/709863109093626?ref=_xav_ig_profile_page_web">
                     <img src="../assets/img/layout/logo_facebook.png" height="35" width="35" alt="Facebook">
                     <h3>Disalle Bolos Tatuí</h3>
                 </a> 
             </li>
-            <li class="d-flex justify-content-center">
+            <li class="">
                 <p class="mb-0">Copyright &copy; 2025 • DevMinds</p>
             </li>
         </ul>

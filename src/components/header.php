@@ -11,7 +11,9 @@
 <body>
 
     <header class="d-flex justify-content-between p-3 px-3 align-items-center">
-        <h1 class="fs-2 mb-0 ms-4">DISALLE BOLOS</h1>
+        <a href="../pages/homepage.php">
+            <h1 class="fs-2 mb-0 ms-4">DISALLE BOLOS</h1>
+        </a>
         <button id="btn-menu" class="btn p-0 d-md-none me-3">
             <img id="nav_button" src="../assets/img/layout/menu-hamburguer.png" height="35" width="35" alt="Menu">
         </button>
@@ -19,22 +21,22 @@
         <div class="menu-desktop d-none d-md-flex justify-content-around">
             <ul class="menu-ul-desktop d-flex mb-0 align-items-center ps-3">
                 <li class="nav-item mx-2">
-                    <a class="nav-link" href="#">Bolos</a>
+                    <a class="nav-link" href="../pages/bolos.php">Bolos</a>
                 </li>
                 <li class="nav-item mx-2">
-                    <a class="nav-link" href="#">Doces</a>
+                    <a class="nav-link" href="../pages/doces.php">Doces</a>
                 </li>
                 <li class="nav-item mx-2">
-                    <a class="nav-link" href="#">Kit Festa</a>
+                    <a class="nav-link" href="../pages/kit_festa.php">Kit Festa</a>
                 </li>
                 <li class="nav-item mx-2">
-                    <a class="nav-link" href="#">Salgados</a>
+                    <a class="nav-link" href="../pages/salgados.php">Salgados</a>
                 </li>
                 <li class="nav-item mx-2">
-                    <a class="nav-link" href="#">Mini-Lanche</a>
+                    <a class="nav-link" href="../pages/mini_lanches.php">Mini-Lanche</a>
                 </li>
                 <li class="nav-item mx-2">
-                    <a class="nav-link" href="#">
+                    <a class="nav-link" href="../pages/carrinho.php">
                         <button class="btn p-0">
                             <img id="buy_button" src="../assets/img/layout/carrinho de compras.png" height="35" width="35" alt="Carrinho">
                         </button>
@@ -46,22 +48,22 @@
     <div id="menu-mobile" class="menu-fechado d-md-none">
         <ul class="menu-ul p-0">
             <li class="nav-item ms-5">
-                <a class="nav-link" href="#">BOLOS</a>
+                <a class="nav-link" href="../pages/bolos.php">BOLOS</a>
             </li>
             <li class="nav-item ms-5">
-                <a class="nav-link" href="#">DOCES</a>
+                <a class="nav-link" href="../pages/doces.php">DOCES</a>
             </li>
             <li class="nav-item ms-5">
-                <a class="nav-link" href="#">KIT FESTA</a>
+                <a class="nav-link" href="../pages/kit_festa.php">KIT FESTA</a>
             </li>
             <li class="nav-item ms-5">
-                <a class="nav-link" href="#">SALGADOS</a>
+                <a class="nav-link" href="../pages/salgados.php">SALGADOS</a>
             </li>
             <li class="nav-item ms-5">
-                <a class="nav-link" href="#">MINI-LANCHE</a>
+                <a class="nav-link" href="../pages/mini_lanches.php">MINI-LANCHE</a>
             </li>
             <li class="nav-item ms-5">
-                <a class="nav-link" href="#">
+                <a class="nav-link" href="../pages/carrinho.php">
                     <button class="btn p-0">
                         <img id="buy_button" src="../assets/img/layout/carrinho de compras.png" height="35" width="35" alt="Carrinho">
                     </button>

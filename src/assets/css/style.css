@@ -39,6 +39,10 @@ header {
     background-color: var(--vermelho);
 }
 
+header a{
+    padding: 0;
+}
+
 header.menu-aberto {
     border-bottom: none;
 }
@@ -94,6 +98,7 @@ li {
 
 footer {
     background-color: var(--vermelho);
+    width: 100%;
 }
 
 a{
@@ -107,7 +112,17 @@ a h3{
     margin-left: 15px;
 }
 
-.titulo{
+footer ul {
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+li p{
+    text-align: center;
+}
+
+ul h1{
+    text-align: center;
     text-decoration: underline;
     text-decoration-color: var(--branco);
 }
