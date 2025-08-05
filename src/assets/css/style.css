@@ -1,1 +1,17 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
+header{
+    background-color: #a00c09;
+}
+
+header h1, a, li{
+    color: white;
+}
+
+li{
+    list-style: none;
+}
