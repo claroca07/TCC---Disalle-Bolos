@@ -5,28 +5,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../assets/css/style.css">
 </head>
-<body>
-        <div id="carouselExampleIndicators" class="carousel slide " data-ride="carousel">
-
-            
-
-        <div class="carousel-inner d-flex justify-self-center mt-2">
-
-            <div class="carousel-item active">
-                <img src="https://i.pinimg.com/1200x/0b/cd/e0/0bcde00fab735412c7058fbe3a4ba262.jpg" class=" d-block w-100 h-100 md-w-25 md-h-25" alt="...">
-            </div>
-
-            <div class="carousel-item">
-                <img src="https://i.pinimg.com/736x/dc/5f/4b/dc5f4b4bb441247bb2e360aca81a1125.jpg" class="d-block w-100 h-55" alt="...">
-            </div>
-
-
-            <div class="carousel-item">
-                <img src="https://i.pinimg.com/736x/cb/eb/90/cbeb90795b6615b09ae6e7d7a6def15b.jpg" class="d-block w-100 h-55" alt="...">
-            </div>
-        </div>
-
-            
+<body>    
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active d-flex">
+    <div class="card">
+    <img src="../assets/img/layout/logo_whatsapp.png" class="d-block w-100" alt="...">
+    <div class="card-body">
+        <h5 class="card-title">Card title 2</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+            card's content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
 </div>
+    </div>
+    <div class="carousel-item">
+    <div class="card">
+    <img src="../assets/img/layout/logo_localizacao.png" class="d-block w-100" alt="...">
+    <div class="card-body">
+        <h5 class="card-title">Card title 2</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+            card's content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+</div>
+    </div>
+    <div class="carousel-item">
+    <div class="card">
+    <img src="../assets/img/layout/section_img.PNG" class="d-block w-100" alt="...">
+    <div class="card-body">
+        <h5 class="card-title">Card title 2</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+            card's content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+</div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
 </body>
+
 </html>

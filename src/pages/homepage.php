@@ -12,8 +12,18 @@
 
 <body>
     <?php include __DIR__ . '/../components/header.php'; ?>
-    
-    <?php include __DIR__ . '/../components/carrossel.php'; ?>
+
+    <div class='section_img pb-5 '>
+
+        <img  src="../assets/img/layout/section_img" width='100%' height='100%' class='object-scale' alt=""> 
+
+        </div>
+
+
+    <div class='faixa-sobre mb-5 d-flex align-items-center position-relative'>
+        <h1>Saiba mais sobre <span style="color: var(--amarelo);">nós</span></h1>
+        <img class="disalle img-fluid position-absolute" src="../assets/img/layout/image.png" alt="Foto da Disalle">
+    </div>
 
     <?php include __DIR__ . '/../components/footer.php'; ?>
 
