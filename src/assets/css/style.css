@@ -127,8 +127,20 @@ ul h1{
     text-decoration-color: var(--branco);
 }
 
+
 @media (min-width: 768px) and (max-width: 1070px) {
     .menu-ul-desktop li:last-child {
         padding-left: 0;
     }
+
+    .section_img{
+        width: 100% ;
+        height: auto ;
+
+    }
+ 
+}
+
+@media (max-width: 760px){
+    
 }

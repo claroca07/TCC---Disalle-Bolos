@@ -10,16 +10,16 @@
 
 <body>
 
-    <header class="d-flex justify-content-between p-3 px-3 align-items-center">
+    <header class="d-flex justify-content-between p-4 px-3 align-items-center">
         <a href="../pages/homepage.php">
-            <h1 class="fs-2 mb-0 ms-4">DISALLE BOLOS</h1>
+            <h1 class="fs-1 mb-0 ms-4">DISALLE BOLOS</h1>
         </a>
         <button id="btn-menu" class="btn p-0 d-md-none me-3">
             <img id="nav_button" src="../assets/img/layout/menu-hamburguer.png" height="35" width="35" alt="Menu">
         </button>
 
         <div class="menu-desktop d-none d-md-flex justify-content-around">
-            <ul class="menu-ul-desktop d-flex mb-0 align-items-center ps-3">
+            <ul class="menu-ul-desktop d-flex mb-0 align-items-center p-3">
                 <li class="nav-item mx-2">
                     <a class="nav-link" href="../pages/bolos.php">Bolos</a>
                 </li>
