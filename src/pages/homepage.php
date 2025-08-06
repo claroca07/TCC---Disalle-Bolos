@@ -14,15 +14,14 @@
     <?php include __DIR__ . '/../components/header.php'; ?>
 
     <div class='section_img pb-5 '>
+        <img src="../assets/img/layout/section_img" width='100%' height='100%' class='object-scale' alt="">
+    </div>
 
-        <img  src="../assets/img/layout/section_img" width='100%' height='100%' class='object-scale' alt=""> 
+    <?php include __DIR__ . '/../components/carrossel.php'; ?>
 
-        </div>
-
-
-    <div class='faixa-sobre mb-5 d-flex align-items-center position-relative'>
+    <div class='faixa-sobre mb-5 d-flex align-items-center p-4 justify-content-md-around'>
         <h1>Saiba mais sobre <span style="color: var(--amarelo);">nós</span></h1>
-        <img class="disalle img-fluid position-absolute" src="../assets/img/layout/image.png" alt="Foto da Disalle">
+        <img class="disalle d-none d-md-flex" src="../assets/img/layout/image.png" height="365" width="365" alt="Foto da Disalle">
     </div>
 
     <?php include __DIR__ . '/../components/footer.php'; ?>
