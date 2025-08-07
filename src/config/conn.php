@@ -1,7 +1,7 @@
 <?php
 const DBDRIVE = "mysql";
 const DBHOST = "localhost";
-const DBNAME = "disallebolos";
+const DBNAME = "disalle";
 const DBUSER = "root";
 const DBPASS = "";
 
