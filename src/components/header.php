@@ -18,57 +18,59 @@
             <img id="nav_button" src="../assets/img/layout/menu-hamburguer.png" height="35" width="35" alt="Menu">
         </button>
 
+        <?php 
+
+
+        $header_items = [
+            ['url' => '../pages/bolos.php', 'item_redirect' => 'Bolos'],
+            ['url' => '../pages/salgados.php', 'item_redirect' => 'Salgados'],
+            ['url' => '../pages/kit_festa.php', 'item_redirect' => 'Kit-Festas'],
+            ['url' => '../pages/mini_lanches.php', 'item_redirect' => 'Mini Lanches'],
+            ['url' => '../pages/carrinho.php', 'item_redirect' => '<img id="buy_button" src="../assets/img/layout/carrinho de compras.png" height="35" width="35" alt="Carrinho">'],
+        ];
+   
+        
+        ?>
+
         <div class="menu-desktop d-none d-md-flex justify-content-around">
             <ul class="menu-ul-desktop d-flex mb-0 align-items-center p-3">
-                <li class="nav-item mx-2">
-                    <a class="nav-link" href="../pages/bolos.php">Bolos</a>
-                </li>
-                <li class="nav-item mx-2">
-                    <a class="nav-link" href="../pages/doces.php">Doces</a>
-                </li>
-                <li class="nav-item mx-2">
-                    <a class="nav-link" href="../pages/kit_festa.php">Kit Festa</a>
-                </li>
-                <li class="nav-item mx-2">
-                    <a class="nav-link" href="../pages/salgados.php">Salgados</a>
-                </li>
-                <li class="nav-item mx-2">
-                    <a class="nav-link" href="../pages/mini_lanches.php">Mini-Lanche</a>
-                </li>
-                <li class="nav-item mx-2">
-                    <a class="nav-link" href="../pages/carrinho.php">
-                        <button class="btn p-0">
-                            <img id="buy_button" src="../assets/img/layout/carrinho de compras.png" height="35" width="35" alt="Carrinho">
-                        </button>
-                    </a>
-                </li>
+                <?php 
+
+                    foreach ($header_items as $item) {
+                        
+                            ?> 
+                                <li class="nav-item mx-2">
+                                <a class="nav-link" href=<?=$item['url']?>> <?=$item['item_redirect']?> </a>
+                   
+                                </li>
+                            
+                            <?php
+                              
+                    }
+                
+                ?>
             </ul>
         </div>
     </header>
+
+    
     <div id="menu-mobile" class="menu-fechado d-md-none">
         <ul class="menu-ul p-0">
-            <li class="nav-item ms-5">
-                <a class="nav-link" href="../pages/bolos.php">BOLOS</a>
-            </li>
-            <li class="nav-item ms-5">
-                <a class="nav-link" href="../pages/doces.php">DOCES</a>
-            </li>
-            <li class="nav-item ms-5">
-                <a class="nav-link" href="../pages/kit_festa.php">KIT FESTA</a>
-            </li>
-            <li class="nav-item ms-5">
-                <a class="nav-link" href="../pages/salgados.php">SALGADOS</a>
-            </li>
-            <li class="nav-item ms-5">
-                <a class="nav-link" href="../pages/mini_lanches.php">MINI-LANCHE</a>
-            </li>
-            <li class="nav-item ms-5">
-                <a class="nav-link" href="../pages/carrinho.php">
-                    <button class="btn p-0">
-                        <img id="buy_button" src="../assets/img/layout/carrinho de compras.png" height="35" width="35" alt="Carrinho">
-                    </button>
-                </a>
-            </li>
+              <?php 
+
+                    foreach ($header_items as $item) {
+                        
+                            ?> 
+                                <li class="nav-item ms-5">
+                                <a class="nav-link" href=<?=$item['url']?>> <?=$item['item_redirect']?> </a>
+                   
+                                </li>
+                            
+                            <?php
+                              
+                    }
+                
+                ?>
     </div>
 </body>
 <script src="../assets/js/main.js"></script>
