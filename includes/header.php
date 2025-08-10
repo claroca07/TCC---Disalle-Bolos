@@ -34,7 +34,7 @@
 
         <div class="menu-desktop d-none d-md-flex justify-content-around">
             <ul class="menu-ul-desktop d-flex mb-0 align-items-center p-3">
-<<<<<<< HEAD:src/components/header.php
+
                 <?php 
 
                     foreach ($header_items as $item) {
@@ -50,13 +50,13 @@
                     }
                 
                 ?>
-=======
+
                
 
     
     <div id="menu-mobile" class="menu-fechado d-md-none">
         <ul class="menu-ul p-0">
-<<<<<<< HEAD:src/components/header.php
+
               <?php 
 
                     foreach ($header_items as $item) {
