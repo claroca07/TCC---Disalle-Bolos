@@ -22,11 +22,11 @@
 
 
         $header_items = [
-            ['url' => '../pages/bolos.php', 'item_redirect' => 'Bolos'],
-            ['url' => '../pages/salgados.php', 'item_redirect' => 'Salgados'],
-            ['url' => '../pages/kit_festa.php', 'item_redirect' => 'Kit-Festas'],
-            ['url' => '../pages/mini_lanches.php', 'item_redirect' => 'Mini Lanches'],
-            ['url' => '../pages/carrinho.php', 'item_redirect' => '<img id="buy_button" src="../assets/img/layout/carrinho de compras.png" height="35" width="35" alt="Carrinho">'],
+            ['url' => '../pages/produtos/bolos.php', 'item_redirect' => 'Bolos'],
+            ['url' => '../pages/produtos/salgados.php', 'item_redirect' => 'Salgados'],
+            ['url' => '../pages/produtos/kit_festa.php', 'item_redirect' => 'Kit-Festas'],
+            ['url' => '../pages/produtos/mini_lanches.php', 'item_redirect' => 'Mini Lanches'],
+            ['url' => '../pages/carrinho/carrinho.php', 'item_redirect' => '<img id="buy_button" src="./assets/img/layout/carrinho de compras.png" height="35" width="35" alt="Carrinho">'],
         ];
    
         

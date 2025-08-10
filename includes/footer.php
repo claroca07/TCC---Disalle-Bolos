@@ -10,6 +10,8 @@
 
 <body>
 
+<!-- Dalia vai transformar isso em foreach dps -->
+
     <footer class="container-fluid p-4 pb-3 d-flex flex-column flex-md-row">
         <ul class="mb-0 d-flex flex-column">
             <h1>Contatos</h1>

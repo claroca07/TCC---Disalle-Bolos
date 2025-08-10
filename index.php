@@ -14,18 +14,18 @@
 <body>
 
             <header>
-                     <?php include __DIR__ . '/../components/header.php'; ?>
+                     <?php include __DIR__ . '/./includes/header.php'; ?>
 
             </header>
 
     <div class='section_img pb-5 '>
-        <img src="../assets/img/layout/section_img.png" width='100%' height='100%' class='object-scale' alt="">
+        <img src="./assets/img/layout/section_img.png" width='100%' height='100%' class='object-scale' alt="">
     </div>
 
 
     <main>
 
-            <?php include __DIR__ . '/../components/carrossel.php'; ?>
+            <?php include __DIR__ . '/./includes/carrossel.php'; ?>
 
                 <div class='faixa-sobre mb-5 d-flex align-items-center p-4 justify-content-md-around'>
                     <h1>Saiba mais sobre <span style="color: var(--amarelo);">nós</span></h1>
@@ -51,7 +51,7 @@
 
     <footer>
 
-    <?php include __DIR__ . '/../components/footer.php'; ?>
+    <?php include __DIR__ . '/./includes/footer.php'; ?>
 
     </footer>
 
