@@ -51,32 +51,7 @@
                 
                 ?>
 =======
-                <li class="nav-item mx-2">
-                    <a class="nav-link" href="../pages/bolos.php">Bolos</a>
-                </li>
-                <li class="nav-item mx-2">
-                    <a class="nav-link" href="../pages/doces.php">Doces</a>
-                </li>
-                <li class="nav-item mx-2">
-                    <a class="nav-link" href="../pages/kit_festa.php">Kit Festa</a>
-                </li>
-                <li class="nav-item mx-2">
-                    <a class="nav-link" href="../pages/salgados.php">Salgados</a>
-                </li>
-                <li class="nav-item mx-2">
-                    <a class="nav-link" href="../pages/mini_lanches.php">Mini-Lanche</a>
-                </li>
-                <li class="nav-item mx-2">
-                    <a class="nav-link" href="../pages/carrinho.php">
-                        <button class="btn p-0">
-                            <img id="buy_button" src="./assets/img/layout/carrinho de compras.png" height="35" width="35" alt="Carrinho">
-                        </button>
-                    </a>
-                </li>
->>>>>>> 2730c2f79878f5884baf281402fadae100596acf:includes/header.php
-            </ul>
-        </div>
-    </header>
+               
 
     
     <div id="menu-mobile" class="menu-fechado d-md-none">
@@ -97,31 +72,7 @@
                     }
                 
                 ?>
-=======
-            <li class="nav-item ms-5">
-                <a class="nav-link" href="../pages/bolos.php">BOLOS</a>
-            </li>
-            <li class="nav-item ms-5">
-                <a class="nav-link" href="../pages/doces.php">DOCES</a>
-            </li>
-            <li class="nav-item ms-5">
-                <a class="nav-link" href="../pages/kit_festa.php">KIT FESTA</a>
-            </li>
-            <li class="nav-item ms-5">
-                <a class="nav-link" href="../pages/salgados.php">SALGADOS</a>
-            </li>
-            <li class="nav-item ms-5">
-                <a class="nav-link" href="../pages/mini_lanches.php">MINI-LANCHE</a>
-            </li>
-            <li class="nav-item ms-5">
-                <a class="nav-link" href="./pages/carrinho.php">
-                    <button class="btn p-0">
-                        <img id="buy_button" src="./assets/img/layout/carrinho de compras.png" height="35" width="35" alt="Carrinho">
-                    </button>
-                </a>
-            </li>
->>>>>>> 2730c2f79878f5884baf281402fadae100596acf:includes/header.php
-    </div>
+
 </body>
 <script src="./assets/js/main.js"></script>
 
