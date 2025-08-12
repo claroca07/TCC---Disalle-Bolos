@@ -1,4 +1,3 @@
-
 const menuMobile = document.getElementById('menu-mobile');
 
 function AbrirMenuMobile(){
