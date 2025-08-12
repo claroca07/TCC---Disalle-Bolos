@@ -6,4 +6,3 @@ botaoMenu.addEventListener('click', () => {
     menuMobile.classList.toggle('menu-aberto');
 });
 
-//parte do carrossel

@@ -151,18 +151,19 @@ ul h1 {
 }
 
 .faixa-sobre h1 {
+    font-family: "Poppins", sans-serif !;
+    font-weight: 500;
+    font-style: normal;
     text-align: center;
     margin-left: 11%;
     width: 30%;
-    font-size: 350%;
 }
 
-@media (max-width: 768px){
+@media (max-width: 768px) {
     .faixa-sobre h1 {
-    margin-left: 0;
-    width: 100%;
-}
+        margin-left: 0;
+        width: 100%;
+    }
 }
 
 /* carrossel */
-
