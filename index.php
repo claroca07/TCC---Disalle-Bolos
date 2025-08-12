@@ -13,30 +13,32 @@
 <body>
     <?php include __DIR__ . '/includes/header.php'; ?>
 
-    <div class='section_img pb-5 '>
+    <div class='section_img pb-3'>
         <img src="assets/img/layout/section_img" width='100%' height='100%' class='object-scale' alt="">
     </div>
+
+            <h4 class='mb-5 text-center h-50 w-50' style='color: var(--preto);'>
+                   Conheça nossos produtos!
+            </h4>
 
     <?php include __DIR__ . '/includes/carrossel.php'; ?>
 
     <div class='faixa-sobre mb-5 d-flex align-items-center p-4 justify-content-md-around'>
         
             <h1>Saiba mais sobre <span style="color: var(--amarelo);">nós</span></h1>
-            <img class="disalle d-none d-md-flex" src="assets/img/layout/image.png" height="365" width="365" alt="Foto da Disalle">
+            <img class="disalle d-none d-md-flex" src="assets/img/layout/image.png"  alt="Foto da Disalle">
         
     </div>
 
-    <img class = 'divisor' src='' height=50 width=50 alt='divisor de contéudo'>
+    
 
-        <div class='container-conteudo-sobre mb-5 d-flex justify-content-around '>
+        <div class='conteudo-sobre mb-5 d-flex justify-content-around'>
 
-            <p class='fs-2 text-center h-25 w-25' style='color: var(--preto);'>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur earum enim ullam praesentium, voluptatum consequatur 
-                    suscipit sunt molestiae eos officiis saepe temporibus, ex repudiandae! Quasi incidunt numquam porro 
-                    distinctio aspernatur minus! Atque quisquam tempore asperiores illum aliquam pariatur corporis voluptates!
+            <p class='fs-2 mt-5 text-center h-25 w-25' style='color: var(--preto);'>
+                    Desde de [ano] fazendo estória entregando personalidade, amor, momentos inesqueciveis e deliciosos!!!
             </p>
 
-            <img src='https://i.pinimg.com/1200x/54/3d/a3/543da3b715f6fd644751d384b1ccb28a.jpg' height='450' width=750 alt='Foto em grupo - Disalle Bolos'>
+            <img src='https://i.pinimg.com/1200x/54/3d/a3/543da3b715f6fd644751d384b1ccb28a.jpg' alt='Foto em grupo - Disalle Bolos'>
 
             </div>
 
