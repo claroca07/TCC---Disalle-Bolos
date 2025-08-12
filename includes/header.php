@@ -11,10 +11,10 @@
 <body>
 
     <header class="d-flex justify-content-between p-4 px-3 align-items-center">
-        <a href="../pages/homepage.php">
+        <a href="./index.php">
             <h1 class="fs-1 mb-0 ms-4">DISALLE BOLOS</h1>
         </a>
-        <button id="btn-menu" class="btn p-0 d-md-none me-3">
+        <button onclick = 'AbrirMenuMobile()' id="btn-menu" class="btn p-0 d-md-none me-3">
             <img id="nav_button" src="./assets/img/layout/menu-hamburguer.png" height="35" width="35" alt="Menu">
         </button>
 
@@ -73,7 +73,9 @@
                 
                 ?>
 
+            <script src="./assets/js/main.js"></script>
+
 </body>
-<script src="./assets/js/main.js"></script>
+
 
 </html>

@@ -29,7 +29,7 @@
 
                 <div class='faixa-sobre mb-5 d-flex align-items-center p-4 justify-content-md-around'>
                     <h1>Saiba mais sobre <span style="color: var(--amarelo);">nós</span></h1>
-                    <img class="disalle d-none d-md-flex" src="../assets/img/layout/image.png" height="365" width="365" alt="Foto da Disalle">
+                    <img class="disalle d-none d-md-flex" src="./assets/img/layout/image.png" height="365" width="365" alt="Foto da Disalle">
                 </div>
 
             <img class = 'divisor' src='' height=50 width=50 alt='divisor de contéudo'>
@@ -55,6 +55,8 @@
 
     </footer>
 
+
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
 
 </body>
