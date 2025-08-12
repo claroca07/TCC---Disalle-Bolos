@@ -99,6 +99,9 @@ li {
     font-size: 20px;
 }
 
+
+
+
 /* footer */
 
 footer {
@@ -145,22 +148,23 @@ ul h1 {
     }
 }
 
-/* faixa */
+
 .faixa-sobre {
     background-color: var(--vermelho) !important;
 }
 
 .faixa-sobre h1 {
     text-align: center;
-    margin-left: 11%;
-    width: 30%;
-    font-size: 350%;
+    margin-left: 5%;
+    width: 100%;
+    font-size: medium;
+   
 }
 
 @media (max-width: 768px){
     .faixa-sobre h1 {
     margin-left: 0;
-    width: 100%;
+    width: 50% !important;
 }
 }
 
