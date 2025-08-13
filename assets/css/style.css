@@ -57,7 +57,6 @@ header.menu-aberto {
 }
 
 .menu-aberto {
-    display: block;
     background-color: var(--vermelho);
     border-bottom: 3px solid var(--branco);
 }
@@ -102,22 +101,21 @@ li {
 }
 
 /* Main */
-h4{
-    font-size: 400%;
+.main-txt{
+    font-size: 250%;
     margin-left: 25%;
     
 }
 
 .faixa-sobre {
-    background-color: var(--vermelho) !important;
+    background-color: var(--vermelho);
     
 }
 
 .faixa-sobre h1 {
     text-align: center;
-    margin-left: 5%;
-    width: 25%;
-    font-size: 500%;
+    width: 30%;
+    font-size: 300%;
 }
 
 .faixa-sobre img{
@@ -125,44 +123,39 @@ h4{
     width: 14%;
 }
 
-.conteudo-sobre img{
-    height: 50%;
-    width: 50%;
-    padding-left: 15%;
+.conteudo-sobre{
+    margin-inline: 5%;
+    
 }
+
 
 
 @media (max-width: 768px){ 
 
-    h4{
+
+
+    .main-txt{
         
         margin-left: 25%;
         margin-bottom: 25%; /* mudança temporária até mudar o design do section*/
-        font-size: 100%;
+        font-size: 200%;
         height: 30%;
     }
 
-    .faixa-sobre h1 {
-        margin-left: 15%;
-        width: 30%;
-        font-size: 100%;
+    .faixa-sobre h1{
+        width: 50%;
+        font-size: 200%;
     }
 
-    .faixa-sobre img{
-        margin-left: 15%;
-        height:100%;
-        width:100%;
-    }
-
+    
     .conteudo-sobre p{
         margin: 0 !important;
-        height: 60%;
-        font-size: 50% !important;
+        font-size: 95% !important;
+        margin-top:5% !important;
     }
 
-    .conteudo-sobre img{
-        height:70%;
-    }
+
+    
 }
 
 
@@ -200,8 +193,17 @@ ul h1 {
     text-decoration-color: var(--branco);
 }
 
+@media (max-width:768px){
+    footer h3{
+        font-size: 100%;
+    }
+}
 
 @media (min-width: 768px) and (max-width: 1070px) {
+
+    
+
+    
     .menu-ul-desktop li:last-child {
         padding-left: 0;
     }

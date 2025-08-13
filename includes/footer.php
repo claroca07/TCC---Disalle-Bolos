@@ -39,8 +39,8 @@
                     <h3>Disalle Bolos Tatuí</h3>
                 </a> 
             </li>
-            <li class="">
-                <p class="mb-0">Copyright &copy; 2025 • DevMinds</p>
+            <li>
+                <p class="fs-6 mb-0">Copyright &copy; 2025 • DevMinds</p>
             </li>
         </ul>
     </footer>
