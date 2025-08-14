@@ -4,13 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/TCC---Disalle-Bolos/assets/css/style.css">
 </head>
 
 <body>
 
-<!-- Dalia vai transformar isso em foreach dps -->
+    <!-- Dalia vai transformar isso em foreach dps -->
 
     <footer class="container-fluid p-4 pb-3 d-flex flex-column flex-md-row">
         <ul class="mb-0 d-flex flex-column">
@@ -31,21 +31,22 @@
                 <a href="https://www.instagram.com/disallebolos">
                     <img src="./assets/img/layout/logo_instagram.png" height="35" width="35" alt="Instagram">
                     <h3>@disallebolos</h3>
-                </a> 
+                </a>
             </li>
             <li>
                 <a href="https://www.facebook.com/709863109093626?ref=_xav_ig_profile_page_web">
                     <img src="./assets/img/layout/logo_facebook.png" height="35" width="35" alt="Facebook">
                     <h3>Disalle Bolos Tatuí</h3>
-                </a> 
+                </a>
             </li>
             <li>
                 <p class="fs-6 mb-0">Copyright &copy; 2025 • DevMinds</p>
             </li>
         </ul>
     </footer>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/TCC---Disalle-Bolos/assets/js/main.js"></script>
 
 </body>
 

@@ -13,8 +13,6 @@
 =======
     <link rel="stylesheet" href="../../assets/css/style.css">
 
->>>>>>> 2730c2f79878f5884baf281402fadae100596acf:pages/carrinho/finalizar_pedido.php
-</head>
 
 <body>
     

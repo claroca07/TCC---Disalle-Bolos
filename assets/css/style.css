@@ -101,21 +101,50 @@ li {
 }
 
 /* Main */
+<<<<<<< HEAD
 .main-txt{
     font-size: 250%;
+=======
+<<<<<<< HEAD
+.main-txt{
+    font-size: 250%;
+=======
+h4{
+    font-size: 400%;
+>>>>>>> 70da209916a0447cfa9fdbb011a5e5419bad7e46
+>>>>>>> 710606a84addf8d48748b1b9eece08fe035f768f
     margin-left: 25%;
     
 }
 
 .faixa-sobre {
+<<<<<<< HEAD
     background-color: var(--vermelho);
+=======
+<<<<<<< HEAD
+    background-color: var(--vermelho);
+=======
+    background-color: var(--vermelho) !important;
+>>>>>>> 70da209916a0447cfa9fdbb011a5e5419bad7e46
+>>>>>>> 710606a84addf8d48748b1b9eece08fe035f768f
     
 }
 
 .faixa-sobre h1 {
     text-align: center;
+<<<<<<< HEAD
     width: 30%;
     font-size: 300%;
+=======
+<<<<<<< HEAD
+    width: 30%;
+    font-size: 300%;
+=======
+    margin-left: 5%;
+    width: 25%;
+    font-size: 500%;
+>>>>>>> 70da209916a0447cfa9fdbb011a5e5419bad7e46
+>>>>>>> 710606a84addf8d48748b1b9eece08fe035f768f
 }
 
 .faixa-sobre img{
@@ -123,6 +152,12 @@ li {
     width: 14%;
 }
 
+<<<<<<< HEAD
+.conteudo-sobre{
+    margin-inline: 5%;
+    
+=======
+<<<<<<< HEAD
 .conteudo-sobre{
     margin-inline: 5%;
     
@@ -156,6 +191,49 @@ li {
 
 
     
+=======
+.conteudo-sobre img{
+    height: 50%;
+    width: 50%;
+    padding-left: 15%;
+>>>>>>> 710606a84addf8d48748b1b9eece08fe035f768f
+}
+
+
+
+@media (max-width: 768px){ 
+
+
+
+    .main-txt{
+        
+        margin-left: 25%;
+        margin-bottom: 25%; /* mudança temporária até mudar o design do section*/
+        font-size: 200%;
+        height: 30%;
+    }
+
+    .faixa-sobre h1{
+        width: 50%;
+        font-size: 200%;
+    }
+
+    
+    .conteudo-sobre p{
+        margin: 0 !important;
+        font-size: 95% !important;
+        margin-top:5% !important;
+    }
+
+<<<<<<< HEAD
+
+    
+=======
+    .conteudo-sobre img{
+        height:70%;
+    }
+>>>>>>> 70da209916a0447cfa9fdbb011a5e5419bad7e46
+>>>>>>> 710606a84addf8d48748b1b9eece08fe035f768f
 }
 
 
@@ -215,7 +293,10 @@ ul h1 {
     }
 }
 
+<<<<<<< HEAD
+=======
 
 
 /* carrossel */
 
+>>>>>>> 70da209916a0447cfa9fdbb011a5e5419bad7e46
