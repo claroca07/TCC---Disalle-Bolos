@@ -10,6 +10,7 @@
 
 <body>
 
+<<<<<<< HEAD
     <header class="d-flex justify-content-between p-4 px-3 align-items-center">
         <a href="./index.php">
             <h1 class="fs-1 mb-0 ms-4">DISALLE BOLOS</h1>
@@ -39,6 +40,38 @@
     </div>
 
         <div id="menu-mobile" class="menu-fechado d-md-none">
+=======
+<header class="d-flex justify-content-between p-4 px-3 ">
+    <a href="../pages/homepage.php">
+        <h1 class="fs-1 mb-0 ms-4">DISALLE BOLOS</h1>
+    </a>
+    <button id="btn-menu" class="btn p-0 d-md-none me-3">
+        <img id="nav_button" src="./assets/img/layout/menu-hamburguer.png" height="35" width="35" alt="Menu">
+    </button>
+
+    <?php 
+    $header_items = [
+        ['url' => '../pages/produtos/bolos.php', 'item_redirect' => 'Bolos'],
+        ['url' => '../pages/produtos/salgados.php', 'item_redirect' => 'Salgados'],
+        ['url' => '../pages/produtos/kit_festa.php', 'item_redirect' => 'Kit-Festas'],
+        ['url' => '../pages/produtos/mini_lanches.php', 'item_redirect' => 'Mini Lanches'],
+        ['url' => '../pages/carrinho/carrinho.php', 'item_redirect' => '<img id="buy_button" src="./assets/img/layout/carrinho_de_compras.png" height="40" width="40" alt="Carrinho">'],
+    ]; 
+    ?>
+
+
+    <div class="menu-desktop d-none d-md-flex justify-content-around">
+        <ul class="menu-ul-desktop d-flex mb-0 align-items-center p-3">
+            <?php foreach ($header_items as $item): ?>
+                <li class="nav-item ms-5 mr-1">
+                    <a class="nav-link" href="<?=$item['url']?>"><?=$item['item_redirect']?></a>
+                </li>
+            <?php endforeach; ?>
+        </ul>
+    </div>
+
+    <div id="menu-mobile" class="menu-fechado d-md-none">
+>>>>>>> 70da209916a0447cfa9fdbb011a5e5419bad7e46
         <ul class="menu-ul p-0">
             <?php foreach ($header_items as $item): ?>
                 <li class="nav-item ms-5">
@@ -48,6 +81,7 @@
         </ul>
     </div>
 
+<<<<<<< HEAD
     </header>
 
     <script src="/TCC---Disalle-Bolos/assets/js/script.js"></script>
@@ -57,3 +91,9 @@
 
 </body>
 </html>
+=======
+</header>
+
+</body>
+</html>
+>>>>>>> 70da209916a0447cfa9fdbb011a5e5419bad7e46
