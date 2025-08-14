@@ -1,8 +1,9 @@
-const botaoMenu = document.getElementById('btn-menu');
+
 const menuMobile = document.getElementById('menu-mobile');
 
-botaoMenu.addEventListener('click', () => {
+function AbrirMenuMobile(){
     menuMobile.classList.toggle('menu-fechado');
     menuMobile.classList.toggle('menu-aberto');
-});
+}
+
 

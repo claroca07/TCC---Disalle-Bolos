@@ -22,35 +22,37 @@
     <!-- transformar isso aqui abaixo em elementos separados, fundo texto e boneca (motivos de responsividade,
       no mobile a distribuição dos elementos muda); deixar legivel -->
 
-    <div class='section_img pb-5 '>
-        <img src="./assets/img/layout/section_img.png" width='100%' height='100%' class='object-scale' alt="">
+    <hr class='h-50 w-100 ' style='color: var(--preto)'>
+    </hr>
+
+    <div class="bem-vindas d-flex justify-content-center">
+        <h3 class='main-txt mb-5' style='color: var(--preto);'>
+            Conheça nossos produtos!
+        </h3>
     </div>
 
+    <!-- CARROSSEL nao deve ser um component, visto que ele so esta presente nessa pagina! -->
 
-    <main>
+    <div class='faixa-sobre mb-5 d-flex align-items-center p-4 justify-content-md-around'>
+        <h1>Saiba mais sobre <span style="color: var(--amarelo);">nós</span></h1>
+        <img class="disalle d-none d-md-flex" src="./assets/img/layout/image.png" height="365" width="365" alt="Foto da Disalle">
+    </div>
 
-        <!-- CARROSSEL nao deve ser um component, visto que ele so esta presente nessa pagina! -->
+    <!-- precisa-se pegar os componentes do divisores no canva e juntar num arquivo so e salvar pra por aki -->
+    <img class='divisor' src='' height=50 width=50 alt='divisor de contéudo'>
 
-        <div class='faixa-sobre mb-5 d-flex align-items-center p-4 justify-content-md-around'>
-            <h1>Saiba mais sobre <span style="color: var(--amarelo);">nós</span></h1>
-            <img class="disalle d-none d-md-flex" src="assets/img/layout/image.png" height="365" width="365" alt="Foto da Disalle">
-        </div>
+    <div class='conteudo-sobre mb-5 d-flex flex-column-reverse flex-md-row justify-content-center align-items-center'>
 
-        <!-- precisa-se pegar os componentes do divisores no canva e juntar num arquivo so e salvar pra por aki -->
-        <img class='divisor' src='' height=50 width=50 alt='divisor de contéudo'>
+        <p class='fs-2 text-center ml-2 h-25 w-25' style='color: var(--preto);'>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur earum enim ullam praesentium, voluptatum consequatur
+            suscipit sunt molestiae eos officiis saepe temporibus, ex repudiandae!
+        </p>
 
-        <div class='container-conteudo-sobre d-flex justify-content-around m-5'>
+        <img src='https://i.pinimg.com/1200x/54/3d/a3/543da3b715f6fd644751d384b1ccb28a.jpg' class='h-50 w-50' alt='Foto em grupo - Disalle Bolos'>
 
-            <p class='fs-2 text-center ml-2 h-25 w-25' style='color: var(--preto);'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur earum enim ullam praesentium, voluptatum consequatur
-                suscipit sunt molestiae eos officiis saepe temporibus, ex repudiandae!
-            </p>
 
-            <!-- <img  class="mt-4" src="assets/img/layout/disalle-tcc.webp" alt="Foto em grupo - Disalle Bolos"> -->
+    </div>
 
-        </div>
-
-    </main>
 
     <footer>
 
